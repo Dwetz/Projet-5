@@ -1,0 +1,5 @@
+fetch('/api/products').then(response => {
+    response.json().then(listOfCanap => {
+        console.log(listOfCanap);
+    });
+});
